@@ -6,11 +6,11 @@ namespace ApiExamenAzureComics.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TestingFiles : ControllerBase
+    public class TestingFilesController : ControllerBase
     {
         private readonly HelperFotoTransform helper;
 
-        public TestingFiles(HelperFotoTransform helper)
+        public TestingFilesController(HelperFotoTransform helper)
         {
             this.helper = helper;
         }
